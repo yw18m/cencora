@@ -1,0 +1,104 @@
+<root>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher AbstractStringMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$AndStringMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$AndStringMatcher int size()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$CharArrayMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$CharArrayMatcher int size()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$CharArrayMatcher java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$CharMatcher AbstractStringMatcher$CharMatcher(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$CharMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$CharMatcher int size()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$CharMatcher java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$CharSetMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$CharSetMatcher int size()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$CharSetMatcher java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$NoneMatcher AbstractStringMatcher$NoneMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$NoneMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$NoneMatcher int isMatch(java.lang.CharSequence, int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$NoneMatcher int size()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$TrimMatcher AbstractStringMatcher$TrimMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$TrimMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.AbstractStringMatcher$TrimMatcher int size()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcher int isMatch(char[], int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcher int size()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcherFactory StringMatcherFactory()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcherFactory org.apache.commons.text.matcher.StringMatcher charMatcher(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcherFactory org.apache.commons.text.matcher.StringMatcher commaMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcherFactory org.apache.commons.text.matcher.StringMatcher doubleQuoteMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcherFactory org.apache.commons.text.matcher.StringMatcher noneMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcherFactory org.apache.commons.text.matcher.StringMatcher quoteMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcherFactory org.apache.commons.text.matcher.StringMatcher singleQuoteMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcherFactory org.apache.commons.text.matcher.StringMatcher spaceMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcherFactory org.apache.commons.text.matcher.StringMatcher splitMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcherFactory org.apache.commons.text.matcher.StringMatcher tabMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.matcher.StringMatcherFactory org.apache.commons.text.matcher.StringMatcher trimMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

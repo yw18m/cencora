@@ -1,0 +1,32 @@
+<root>
+  <item name="org.apache.commons.lang3.arch.Processor boolean is32Bit()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.arch.Processor boolean is64Bit()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.arch.Processor boolean isIA64()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.arch.Processor boolean isPPC()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.arch.Processor boolean isX86()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.arch.Processor org.apache.commons.lang3.arch.Processor$Arch getArch()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.arch.Processor org.apache.commons.lang3.arch.Processor$Type getType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.arch.Processor$Arch boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.arch.Processor$Arch java.lang.String getLabel()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.arch.Processor$Type boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

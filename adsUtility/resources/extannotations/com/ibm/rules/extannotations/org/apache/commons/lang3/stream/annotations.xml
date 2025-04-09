@@ -1,0 +1,23 @@
+<root>
+  <item name="org.apache.commons.lang3.stream.Streams Streams()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.stream.Streams$ArrayCollector java.util.Set characteristics()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.stream.Streams$ArrayCollector java.util.function.BiConsumer accumulator()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.stream.Streams$ArrayCollector java.util.function.BinaryOperator combiner()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.stream.Streams$ArrayCollector java.util.function.Function finisher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.stream.Streams$ArrayCollector java.util.function.Supplier supplier()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.stream.Streams$FailableStream java.util.stream.Stream stream()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

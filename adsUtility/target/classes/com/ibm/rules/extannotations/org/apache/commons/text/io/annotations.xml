@@ -1,0 +1,8 @@
+<root>
+  <item name="org.apache.commons.text.io.StringSubstitutorReader boolean isDraining()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.io.StringSubstitutorReader int readCount(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

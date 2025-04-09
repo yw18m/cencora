@@ -1,0 +1,11 @@
+<root>
+  <item name="org.apache.commons.lang3.concurrent.locks.LockingVisitors LockingVisitors()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.locks.LockingVisitors$LockVisitor java.lang.Object getLock()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.locks.LockingVisitors$LockVisitor java.lang.Object getObject()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

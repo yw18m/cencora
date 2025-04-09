@@ -1,0 +1,35 @@
+<root>
+  <item name="org.slf4j.spi.LocationAwareLogger void log(org.slf4j.Marker, java.lang.String, int, java.lang.String, java.lang.Object[], java.lang.Throwable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.spi.LoggerFactoryBinder java.lang.String getLoggerFactoryClassStr()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.spi.LoggerFactoryBinder org.slf4j.ILoggerFactory getLoggerFactory()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.spi.MDCAdapter java.lang.String get(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.spi.MDCAdapter java.util.Map getCopyOfContextMap()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.spi.MDCAdapter void clear()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.spi.MDCAdapter void put(java.lang.String, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.spi.MDCAdapter void remove(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.spi.MDCAdapter void setContextMap(java.util.Map)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.spi.MarkerFactoryBinder java.lang.String getMarkerFactoryClassStr()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.spi.MarkerFactoryBinder org.slf4j.IMarkerFactory getMarkerFactory()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

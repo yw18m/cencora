@@ -1,0 +1,5 @@
+<root>
+  <item name="java.lang.annotation.Annotation boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

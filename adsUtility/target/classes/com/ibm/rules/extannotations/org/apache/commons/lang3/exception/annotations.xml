@@ -1,0 +1,77 @@
+<root>
+  <item name="org.apache.commons.lang3.exception.ContextedException java.lang.Object getFirstContextValue(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedException java.lang.String getFormattedExceptionMessage(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedException java.util.List getContextEntries()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedException java.util.List getContextValues(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedException java.util.Set getContextLabels()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedException org.apache.commons.lang3.exception.ContextedException addContextValue(java.lang.String, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedException org.apache.commons.lang3.exception.ContextedException setContextValue(java.lang.String, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedRuntimeException java.lang.Object getFirstContextValue(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedRuntimeException java.lang.String getFormattedExceptionMessage(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedRuntimeException java.util.List getContextEntries()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedRuntimeException java.util.List getContextValues(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedRuntimeException java.util.Set getContextLabels()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedRuntimeException org.apache.commons.lang3.exception.ContextedRuntimeException addContextValue(java.lang.String, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ContextedRuntimeException org.apache.commons.lang3.exception.ContextedRuntimeException setContextValue(java.lang.String, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.DefaultExceptionContext java.util.List getContextEntries()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ExceptionContext java.lang.Object getFirstContextValue(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ExceptionContext java.lang.String getFormattedExceptionMessage(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ExceptionContext java.util.List getContextEntries()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ExceptionContext java.util.List getContextValues(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ExceptionContext java.util.Set getContextLabels()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ExceptionContext org.apache.commons.lang3.exception.ExceptionContext addContextValue(java.lang.String, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ExceptionContext org.apache.commons.lang3.exception.ExceptionContext setContextValue(java.lang.String, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ExceptionUtils ExceptionUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ExceptionUtils java.lang.Object rethrow(java.lang.Throwable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.exception.ExceptionUtils java.lang.Object typeErasure(java.lang.Throwable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

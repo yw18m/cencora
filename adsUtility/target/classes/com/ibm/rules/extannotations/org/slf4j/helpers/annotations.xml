@@ -1,0 +1,11 @@
+<root>
+  <item name="org.slf4j.helpers.MarkerIgnoringBase java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.helpers.SubstituteLogger boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.slf4j.helpers.SubstituteLogger int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

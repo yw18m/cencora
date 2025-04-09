@@ -1,0 +1,26 @@
+<root>
+  <item name="com.jayway.jsonpath.internal.path.ArrayIndexOperation java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.path.ArrayPathToken java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.path.ArraySliceOperation java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.path.CompiledPath java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.path.PathToken boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.path.PathToken int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.path.PathToken java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.path.PredicatePathToken java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

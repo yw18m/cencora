@@ -1,0 +1,185 @@
+<root>
+  <item name="org.apache.commons.lang3.math.Fraction boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.Fraction double doubleValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.Fraction float floatValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.Fraction int compareTo(org.apache.commons.lang3.math.Fraction)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.Fraction int getDenominator()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.Fraction int getNumerator()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.Fraction int getProperNumerator()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.Fraction int getProperWhole()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.Fraction int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.Fraction int intValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.Fraction java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.Fraction long longValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.IEEE754rUtils IEEE754rUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.IEEE754rUtils double max(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.IEEE754rUtils double max(double, double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.IEEE754rUtils double min(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.IEEE754rUtils double min(double, double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.IEEE754rUtils float max(float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.IEEE754rUtils float max(float, float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.IEEE754rUtils float min(float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.IEEE754rUtils float min(float, float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils NumberUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils boolean isAllZeros(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils byte max(byte, byte, byte)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils byte min(byte, byte, byte)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils double max(double, double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils double min(double, double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils double toDouble(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils double toDouble(java.lang.String, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils double toDouble(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils double toDouble(java.math.BigDecimal, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils float max(float, float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils float min(float, float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils float toFloat(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils float toFloat(java.lang.String, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils int compare(byte, byte)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils int compare(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils int compare(long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils int compare(short, short)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils int max(int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils int min(int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils int toInt(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils int toInt(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.lang.Double createDouble(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.lang.Float createFloat(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.lang.Integer createInteger(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.lang.Long createLong(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.lang.String getMantissa(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.lang.String getMantissa(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.math.BigDecimal toScaledBigDecimal(java.lang.Double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.math.BigDecimal toScaledBigDecimal(java.lang.Double, int, java.math.RoundingMode)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.math.BigDecimal toScaledBigDecimal(java.lang.Float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.math.BigDecimal toScaledBigDecimal(java.lang.Float, int, java.math.RoundingMode)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.math.BigDecimal toScaledBigDecimal(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils java.math.BigDecimal toScaledBigDecimal(java.math.BigDecimal, int, java.math.RoundingMode)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils long max(long, long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils long min(long, long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils long toLong(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils long toLong(java.lang.String, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils short max(short, short, short)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.math.NumberUtils short min(short, short, short)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

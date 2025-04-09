@@ -1,0 +1,198 @@
+
+#loadGetterSetterAsProperties
+package com.cencora;
+
+
+class DroolsUtility
+{
+    string cmmresult;
+    string information;
+    string irtcSearchResult;
+    string lillySearchResult;
+    com.jayway.jsonpath.DocumentContext parsedPayload;
+    string payload;
+    string result;
+    readonly string ruleSetParameter;
+    string warning;
+    DroolsUtility()
+                property groups "BALA"
+                #prototype
+                #pureFunction;
+    int DateCompare(string strDate1, string strDate2, string dateFormat)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean FindArrayValue(string searchString, string strList)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    java.lang.Boolean FindBooleanValue(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    java.util.Date FindDateValue(string searchString, string dateFormat)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    int FindNodeCount(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    string FindValue(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    string FindValue(string searchString, boolean preVal)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    void FindValue(string label, string searchString, boolean preVal)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    string FindValueArray(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    java.lang.Boolean FindValueDouble(string searchString, java.lang.Double dVal, string opt)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    java.lang.Integer FindValueInt(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    string FindValueLowerCase(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    string FindValueNDCCheck(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean FindValueNullInt(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    static com.cencora.DroolsUtility Parse(string payload)
+                #pureFunction;
+    boolean checkArrayDate(string searchString, string dateformat)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkArrayDateFormat(string searchString, string dateFormat)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkArrayDateRange(string searchString, string dateFormat)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkBoolean(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkDateFormat(string searchString, string dateFormat)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkDateValue(string searchString, string dateFormat)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkDateWithinYear(string searchString, string parameter, java.lang.Integer year)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkIntLength(string searchString, int minLength, int maxLength)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkLength(string searchString, string parameter, int length)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkLengthRangeArray(string searchString, int minLength, int maxLength)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkMandatoryFieldNotPresent(string pathStr)
+                #pureFunction;
+    boolean checkMandatoryFieldNotPresent(string jsonString, string pathStr)
+                #pureFunction;
+    boolean checkMaxLength(string searchString, int length)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkMaxLengthInArray(string searchString, int length)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkPattern(string searchString, string parameter, string pattern)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkPatternArray(string searchString, string pattern)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkPatternObject(string searchString, string pattern)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkRevenueDateFormat(string searchString, string dateFormat)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkvalueDoubleArray(string searchString, java.lang.Double inputValue)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean checkvalueStringArray(string searchString, string inputValue)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean compareDateValues(string param1, string param2, string dateFormat)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    static java.lang.Integer convertStringToInt(string str)
+                #pureFunction;
+    string eagleCanNDCsCheck(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    static boolean matchRegEx(string input, string regex)
+                #pureFunction;
+    string modifyPayloadForGenotropin(string genotropinNDC)
+                throws com.fasterxml.jackson.databind.JsonMappingException, com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    void transformJson(string arg0)
+                #pureFunction;
+    string validateGenotropinNDC(string searchString, string type)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean validationZipCode(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+}
+
+class RuleEngineRequest
+{
+    string currentService;
+    string @domain;
+    string eventType;
+    string nextService;
+    string parameter;
+    string requestPayload;
+    string responsePayload;
+    string ruleNumber;
+    string ruleSetParameters;
+    string vendor;
+    RuleEngineRequest()
+                property groups "BALA"
+                #prototype
+                #pureFunction;
+    int FindCount(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    string FindJsonPath(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    int FindNodeCount(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    boolean FindRequestJsonPath(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    int FindRequestNodeCount(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    string FindValue(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    string FindValueRequestPayload(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    string FindValueResponsePayload(string searchString)
+                throws com.fasterxml.jackson.core.JsonProcessingException
+                #pureFunction;
+    static int parseIntOrDefault(string input, int defaultValue)
+                #pureFunction;
+}
+
+package com.jayway.jsonpath;
+
+
+interface DocumentContext
+        extends com.jayway.jsonpath.ReadContext, 
+        com.jayway.jsonpath.WriteContext
+{
+}
+

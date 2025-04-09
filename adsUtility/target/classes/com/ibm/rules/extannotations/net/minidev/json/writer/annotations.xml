@@ -1,0 +1,110 @@
+<root>
+  <item name="net.minidev.json.writer.ArraysMapper java.lang.Object convert(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.ArraysMapper java.lang.Object createArray()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.BeansMapper java.lang.Object getValue(java.lang.Object, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.BeansMapper$Bean java.lang.Object createObject()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.BeansMapper$BeanNoConv java.lang.Object createObject()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CollectionMapper CollectionMapper()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CollectionMapper$ListClass java.lang.Object createArray()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CollectionMapper$ListClass net.minidev.json.writer.JsonReaderI startArray(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CollectionMapper$ListClass net.minidev.json.writer.JsonReaderI startObject(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CollectionMapper$ListType java.lang.Object createArray()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CollectionMapper$MapClass java.lang.Object createObject()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CollectionMapper$MapClass java.lang.Object getValue(java.lang.Object, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CollectionMapper$MapClass java.lang.reflect.Type getType(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CollectionMapper$MapClass net.minidev.json.writer.JsonReaderI startArray(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CollectionMapper$MapClass net.minidev.json.writer.JsonReaderI startObject(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CollectionMapper$MapType java.lang.reflect.Type getType(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CompessorMapper boolean isArray()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CompessorMapper boolean isCompressor(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.CompessorMapper boolean isObject()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.DefaultMapper java.lang.Object createArray()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.DefaultMapper net.minidev.json.writer.JsonReaderI startArray(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.DefaultMapper net.minidev.json.writer.JsonReaderI startObject(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.DefaultMapperCollection net.minidev.json.writer.JsonReaderI startArray(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.DefaultMapperCollection net.minidev.json.writer.JsonReaderI startObject(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.DefaultMapperOrdered java.lang.Object createArray()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.DefaultMapperOrdered net.minidev.json.writer.JsonReaderI startArray(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.DefaultMapperOrdered net.minidev.json.writer.JsonReaderI startObject(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.FakeMapper java.lang.Object createArray()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.FakeMapper java.lang.Object createObject()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.FakeMapper net.minidev.json.writer.JsonReaderI startArray(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.FakeMapper net.minidev.json.writer.JsonReaderI startObject(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.FakeMapper void addValue(java.lang.Object, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.FakeMapper void setValue(java.lang.Object, java.lang.String, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.JsonReaderI java.lang.Object convert(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.MapperRemapped java.lang.String rename(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.writer.UpdaterMapper java.lang.Object convert(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

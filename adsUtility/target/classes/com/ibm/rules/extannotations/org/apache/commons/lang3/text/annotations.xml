@@ -1,0 +1,272 @@
+<root>
+  <item name="org.apache.commons.lang3.text.CompositeFormat java.text.Format getFormatter()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.CompositeFormat java.text.Format getParser()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.ExtendedMessageFormat boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.ExtendedMessageFormat int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.ExtendedMessageFormat java.lang.String toPattern()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.FormatFactory java.text.Format getFormat(java.lang.String, java.lang.String, java.util.Locale)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.FormattableUtils FormattableUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder StrBuilder()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder StrBuilder(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder boolean contains(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder boolean contains(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder boolean contains(org.apache.commons.lang3.text.StrMatcher)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder boolean endsWith(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder boolean equals(org.apache.commons.lang3.text.StrBuilder)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder boolean isEmpty()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder boolean startsWith(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int capacity()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int indexOf(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int indexOf(char, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int indexOf(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int indexOf(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int indexOf(org.apache.commons.lang3.text.StrMatcher)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int indexOf(org.apache.commons.lang3.text.StrMatcher, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int lastIndexOf(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int lastIndexOf(char, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int lastIndexOf(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int lastIndexOf(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int lastIndexOf(org.apache.commons.lang3.text.StrMatcher)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int lastIndexOf(org.apache.commons.lang3.text.StrMatcher, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int length()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder int size()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder java.lang.String build()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder java.lang.String getNewLineText()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder java.lang.String getNullText()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder$StrBuilderReader boolean markSupported()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder$StrBuilderReader boolean ready()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder$StrBuilderReader void close()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder$StrBuilderWriter void close()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrBuilder$StrBuilderWriter void flush()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrLookup StrLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrLookup java.lang.String lookup(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrLookup org.apache.commons.lang3.text.StrLookup noneLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrLookup org.apache.commons.lang3.text.StrLookup systemPropertiesLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrLookup$MapStrLookup java.lang.String lookup(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrLookup$SystemPropertiesStrLookup StrLookup$SystemPropertiesStrLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher StrMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher int isMatch(char[], int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher org.apache.commons.lang3.text.StrMatcher charMatcher(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher org.apache.commons.lang3.text.StrMatcher commaMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher org.apache.commons.lang3.text.StrMatcher doubleQuoteMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher org.apache.commons.lang3.text.StrMatcher noneMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher org.apache.commons.lang3.text.StrMatcher quoteMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher org.apache.commons.lang3.text.StrMatcher singleQuoteMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher org.apache.commons.lang3.text.StrMatcher spaceMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher org.apache.commons.lang3.text.StrMatcher splitMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher org.apache.commons.lang3.text.StrMatcher tabMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher org.apache.commons.lang3.text.StrMatcher trimMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher$CharMatcher StrMatcher$CharMatcher(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher$CharMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher$CharSetMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher$NoMatcher StrMatcher$NoMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher$NoMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher$StringMatcher StrMatcher$StringMatcher(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher$StringMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher$StringMatcher java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher$TrimMatcher StrMatcher$TrimMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrMatcher$TrimMatcher int isMatch(char[], int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrSubstitutor boolean isEnableSubstitutionInVariables()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrSubstitutor boolean isPreserveEscapes()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrSubstitutor char getEscapeChar()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrSubstitutor java.lang.String resolveVariable(java.lang.String, org.apache.commons.lang3.text.StrBuilder, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrSubstitutor org.apache.commons.lang3.text.StrLookup getVariableResolver()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrSubstitutor org.apache.commons.lang3.text.StrMatcher getValueDelimiterMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrSubstitutor org.apache.commons.lang3.text.StrMatcher getVariablePrefixMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrSubstitutor org.apache.commons.lang3.text.StrMatcher getVariableSuffixMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrTokenizer boolean isEmptyTokenAsNull()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrTokenizer boolean isIgnoreEmptyTokens()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrTokenizer boolean isQuote(char[], int, int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrTokenizer int nextIndex()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrTokenizer int previousIndex()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrTokenizer java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrTokenizer org.apache.commons.lang3.text.StrMatcher getDelimiterMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrTokenizer org.apache.commons.lang3.text.StrMatcher getIgnoredMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrTokenizer org.apache.commons.lang3.text.StrMatcher getQuoteMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.StrTokenizer org.apache.commons.lang3.text.StrMatcher getTrimmerMatcher()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.text.WordUtils WordUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

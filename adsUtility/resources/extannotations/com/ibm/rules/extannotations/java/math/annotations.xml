@@ -1,0 +1,570 @@
+<root>
+  <item name="java.math.BigDecimal">
+    <annotation name="ilog.rules.bom.annotations.ValueType"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(char[])">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(char[], int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(char[], int, int, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(char[], java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(double, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(int, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(java.lang.String, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(java.math.BigInteger, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(java.math.BigInteger, int, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(java.math.BigInteger, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal BigDecimal(long, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal byte byteValueExact()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal double doubleValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal float floatValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal int compareTo(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal int compareTo(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal int intValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal int intValueExact()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal int precision()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal int scale()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal int signum()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="-1"/>
+      <val name="max" val="1"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigDecimal java.lang.String toEngineeringString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.lang.String toPlainString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal ONE">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal TEN">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal ZERO">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal abs()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal abs(java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal add(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal add(java.math.BigDecimal, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal divide(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal divide(java.math.BigDecimal, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal divide(java.math.BigDecimal, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal divide(java.math.BigDecimal, int, java.math.RoundingMode)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal divide(java.math.BigDecimal, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal divide(java.math.BigDecimal, java.math.RoundingMode)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal divideToIntegralValue(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal divideToIntegralValue(java.math.BigDecimal, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal max(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal min(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal movePointLeft(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal movePointRight(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal multiply(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal multiply(java.math.BigDecimal, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal negate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal negate(java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal plus()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal plus(java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal pow(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal pow(int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+      <val name="max" val="999999999"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal pow(int, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal pow(int, java.math.MathContext) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="-999999999"/>
+      <val name="max" val="999999999"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal remainder(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal remainder(java.math.BigDecimal, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal round(java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal scaleByPowerOfTen(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal setScale(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal setScale(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal setScale(int, java.math.RoundingMode)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal sqrt(java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal stripTrailingZeros()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal subtract(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal subtract(java.math.BigDecimal, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal ulp()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal valueOf(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal valueOf(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal valueOf(long, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal[] divideAndRemainder(java.math.BigDecimal)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigDecimal[] divideAndRemainder(java.math.BigDecimal, java.math.MathContext)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigInteger toBigInteger()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigInteger toBigIntegerExact()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal java.math.BigInteger unscaledValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigDecimal long longValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal long longValueExact()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigDecimal short shortValueExact()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger">
+    <annotation name="ilog.rules.bom.annotations.ValueType"/>
+  </item>
+  <item name="java.math.BigInteger BigInteger(byte[])">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger BigInteger(byte[], int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger BigInteger(byte[], int, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger BigInteger(int, byte[])">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger BigInteger(int, byte[], int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger BigInteger(int, byte[], int, int) 1">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger BigInteger(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger BigInteger(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger boolean isProbablePrime(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger boolean testBit(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger boolean testBit(int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigInteger byte byteValueExact()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger byte[] toByteArray()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger double doubleValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger float floatValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger int bitCount()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigInteger int bitLength()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigInteger int compareTo(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger int compareTo(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger int getLowestSetBit()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="-1"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigInteger int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger int intValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger int intValueExact()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger int signum()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="-1"/>
+      <val name="max" val="1"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigInteger java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.lang.String toString(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger ONE">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger TEN">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger ZERO">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger abs()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger add(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger and(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger andNot(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger clearBit(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger clearBit(int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger divide(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger flipBit(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger flipBit(int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger gcd(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger max(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger min(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger mod(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger modInverse(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger modPow(java.math.BigInteger, java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger multiply(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger negate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger nextProbablePrime()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger not()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger or(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger pow(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger pow(int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger probablePrime(int, java.util.Random)">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger remainder(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger setBit(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger setBit(int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger shiftLeft(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger shiftRight(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger sqrt()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger subtract(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger valueOf(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger xor(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger[] divideAndRemainder(java.math.BigInteger)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger java.math.BigInteger[] sqrtAndRemainder()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.math.BigInteger long longValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger long longValueExact()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.BigInteger short shortValueExact()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.math.RoundingMode int ordinal()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

@@ -1,0 +1,20 @@
+<root>
+  <item name="com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer int _calcTertiaryShift(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer$TableInfo ByteQuadsCanonicalizer$TableInfo(int, int, int, int[], java.lang.String[], int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer$TableInfo com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer$TableInfo createInitial(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer int _thresholdSize(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer int hashSeed()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

@@ -1,0 +1,5 @@
+<root>
+  <item name="net.minidev.json.annotate.JsonIgnore boolean value()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

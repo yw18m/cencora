@@ -1,0 +1,51 @@
+Steps
+
+1. Put artifacts to deploy in maven artifactory 
+https://[hostname]/ads/download
+
+archetype, import maven plugin, foundation, build-maven-plugin, annotaion jar
+
+example:
+mvn deploy:deploy-file -DgroupId=com.ibm.decision -DartifactId=maven-archetype-external-library -Dversion=14.1.10 \
+-Dpackaging=jar -DrepositoryId=central -Durl=[target_url] -Dfile=maven-archetype-external-library-14.1.10.jar \
+-s settings.xml
+
+2. Fill needed value in settings.xml. 
+
+3. Generate pom for source library and adsLibrary
+
+sample:
+mvn archetype:generate -DarchetypeGroupId=com.ibm.decision -DarchetypeArtifactId=maven-archetype-external-library \
+-DarchetypeVersion=14.1.10 -DgroupId=com.cencora \
+-DartifactId=adsUtility \
+-Dversion=1.0-SNAPSHOT \
+-Ddependencies=com.cencora:droolLibrary:1.0-SNAPSHOT \
+-Dlocales=en_US \
+-DimportMethods=true \
+-B -s settings.xml 
+
+4. Generate source code file system structure.
+For proper ADS verbalization, use @PureFunction from 
+import com.ibm.rules.engine.annotations.PureFunction;
+to annotate the needed customized functions in source java file
+
+5. Build and deploy project to artifactory.
+
+mvn clean install -s settings.xml
+mvn deploy -s settings.xml
+
+6. Connect ADS to the maven repository
+
+https://[hostname]/ads/admin-platform
+
+7. Import library inside ADS project using pom information.
+
+8. In decision, add dependency, use the verbalization.
+
+Note:
+1. These libraries need some development team work to be supported in ADS.
+com.bazaarvoice.jolt.Chainr;
+com.bazaarvoice.jolt.JsonUtils;
+
+
+

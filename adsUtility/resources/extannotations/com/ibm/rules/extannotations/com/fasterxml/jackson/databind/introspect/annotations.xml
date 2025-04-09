@@ -1,0 +1,101 @@
+<root>
+  <item name="com.fasterxml.jackson.databind.introspect.Annotated boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.Annotated int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.Annotated java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedClass boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedClass int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedClass java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedConstructor boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedConstructor int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedConstructor java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedField boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedField int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedField java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedMethod boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedMethod int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedMethod java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedParameter boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedParameter int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotatedParameter java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.AnnotationMap java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.BasicClassIntrospector BasicClassIntrospector()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.ClassIntrospector ClassIntrospector()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.ClassIntrospector com.fasterxml.jackson.databind.BeanDescription forDeserialization(com.fasterxml.jackson.databind.DeserializationConfig, com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.introspect.ClassIntrospector$MixInResolver)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.MemberKey boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.MemberKey int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.MemberKey java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.ObjectIdInfo java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder$Linked java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.VirtualAnnotatedMember boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.VirtualAnnotatedMember int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.VirtualAnnotatedMember java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.VisibilityChecker$Std com.fasterxml.jackson.databind.introspect.VisibilityChecker$Std defaultInstance()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.introspect.VisibilityChecker$Std java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

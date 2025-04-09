@@ -1,0 +1,80 @@
+<root>
+  <item name="com.fasterxml.jackson.databind.util.ArrayBuilders$1 boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.ClassUtil boolean isBogusClass(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.ClassUtil boolean isConcrete(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.ClassUtil java.lang.Class rawClass(com.fasterxml.jackson.databind.JavaType)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.ClassUtil java.lang.Throwable throwIfIOE(java.lang.Throwable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.ClassUtil java.lang.Throwable throwIfRTE(java.lang.Throwable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.ClassUtil java.lang.reflect.Type getGenericSuperclass(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.ClassUtil java.lang.reflect.Type[] getGenericInterfaces(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.Converter com.fasterxml.jackson.databind.JavaType getInputType(com.fasterxml.jackson.databind.type.TypeFactory)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.LinkedNode com.fasterxml.jackson.databind.util.LinkedNode next()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.LookupCache java.lang.Object get(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.LookupCache java.lang.Object putIfAbsent(java.lang.Object, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.NameTransformer$1 java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.NameTransformer$2 java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.NameTransformer$3 java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.NameTransformer$Chained java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.RawValue boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.RawValue int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.RawValue java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.StdDateFormat boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.StdDateFormat int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.StdDateFormat java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.TokenBuffer java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.TypeKey boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.TypeKey int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.util.TypeKey java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

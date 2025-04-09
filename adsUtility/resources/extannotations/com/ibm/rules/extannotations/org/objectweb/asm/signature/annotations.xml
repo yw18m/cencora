@@ -1,0 +1,62 @@
+<root>
+  <item name="org.objectweb.asm.signature.SignatureReader SignatureReader(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor org.objectweb.asm.signature.SignatureVisitor visitArrayType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor org.objectweb.asm.signature.SignatureVisitor visitClassBound()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor org.objectweb.asm.signature.SignatureVisitor visitExceptionType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor org.objectweb.asm.signature.SignatureVisitor visitInterface()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor org.objectweb.asm.signature.SignatureVisitor visitInterfaceBound()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor org.objectweb.asm.signature.SignatureVisitor visitParameterType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor org.objectweb.asm.signature.SignatureVisitor visitReturnType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor org.objectweb.asm.signature.SignatureVisitor visitSuperclass()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor org.objectweb.asm.signature.SignatureVisitor visitTypeArgument(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor void visitBaseType(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor void visitClassType(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor void visitEnd()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor void visitFormalTypeParameter(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor void visitInnerClassType(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor void visitTypeArgument()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureVisitor void visitTypeVariable(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureWriter java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureWriter org.objectweb.asm.signature.SignatureVisitor visitClassBound()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.objectweb.asm.signature.SignatureWriter org.objectweb.asm.signature.SignatureVisitor visitInterface()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

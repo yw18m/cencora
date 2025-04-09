@@ -1,0 +1,41 @@
+<root>
+  <item name="com.jayway.jsonpath.internal.function.numeric.AbstractAggregation AbstractAggregation()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.AbstractAggregation java.lang.Number getValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.AbstractAggregation void next(java.lang.Number)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.Average Average()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.Average java.lang.Number getValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.Max Max()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.Max java.lang.Number getValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.Min Min()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.Min java.lang.Number getValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.StandardDeviation StandardDeviation()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.StandardDeviation java.lang.Number getValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.Sum Sum()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.numeric.Sum java.lang.Number getValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

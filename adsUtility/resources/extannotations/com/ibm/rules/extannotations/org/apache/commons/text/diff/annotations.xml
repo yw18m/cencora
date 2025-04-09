@@ -1,0 +1,47 @@
+<root>
+  <item name="org.apache.commons.text.diff.CommandVisitor void visitDeleteCommand(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.CommandVisitor void visitInsertCommand(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.CommandVisitor void visitKeepCommand(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.DeleteCommand void accept(org.apache.commons.text.diff.CommandVisitor)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.EditCommand java.lang.Object getObject()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.EditCommand void accept(org.apache.commons.text.diff.CommandVisitor)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.EditScript int getLCSLength()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.EditScript int getModifications()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.ReplacementsHandler void handleReplacement(int, java.util.List, java.util.List)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.StringsComparator StringsComparator(java.lang.String, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.StringsComparator org.apache.commons.text.diff.StringsComparator$Snake buildSnake(int, int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.StringsComparator$Snake StringsComparator$Snake(int, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.StringsComparator$Snake int getDiag()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.StringsComparator$Snake int getEnd()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.diff.StringsComparator$Snake int getStart()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

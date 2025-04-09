@@ -1,0 +1,95 @@
+<root>
+  <item name="net.minidev.asm.ASMUtil ASMUtil()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.Accessor boolean isPublic()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.Accessor boolean isReadable()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.Accessor boolean isUsable()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.Accessor boolean isWritable()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.Accessor int getIndex()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.Accessor java.lang.Class getType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.Accessor java.lang.String getName()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.Accessor java.lang.reflect.Type getGenericType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BasicFiledFilter BasicFiledFilter()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BasicFiledFilter boolean canRead(java.lang.reflect.Field)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BasicFiledFilter boolean canUse(java.lang.reflect.Field)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BasicFiledFilter boolean canUse(java.lang.reflect.Field, java.lang.reflect.Method)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BasicFiledFilter boolean canWrite(java.lang.reflect.Field)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BeansAccess BeansAccess()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BeansAccess java.lang.Object get(java.lang.Object, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BeansAccess java.lang.Object newInstance()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BeansAccess java.util.HashMap getMap()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BeansAccess net.minidev.asm.Accessor[] getAccessors()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BeansAccess void set(java.lang.Object, int, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BeansAccessBuilder void dumpDebug(byte[], java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.BeansAccessConfig BeansAccessConfig()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.ConvertDate ConvertDate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.ConvertDate int getYear(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.ConvertDate$StringCmpNS ConvertDate$StringCmpNS()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.ConvertDate$StringCmpNS int compare(java.lang.String, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.DefaultConverter DefaultConverter()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.FieldFilter boolean canRead(java.lang.reflect.Field)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.FieldFilter boolean canUse(java.lang.reflect.Field)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.FieldFilter boolean canUse(java.lang.reflect.Field, java.lang.reflect.Method)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.asm.FieldFilter boolean canWrite(java.lang.reflect.Field)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

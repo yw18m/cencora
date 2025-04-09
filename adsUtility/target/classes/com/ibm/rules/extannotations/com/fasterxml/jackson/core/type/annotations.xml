@@ -1,0 +1,8 @@
+<root>
+  <item name="com.fasterxml.jackson.core.type.ResolvedType ResolvedType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.core.type.ResolvedType java.lang.String toCanonical()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

@@ -1,0 +1,77 @@
+<root>
+  <item name="com.jayway.jsonpath.internal.filter.FilterCompiler$CompiledFilter java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.LogicalExpressionNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.LogicalOperator java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.RelationalExpressionNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.RelationalOperator java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$BooleanNode boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$BooleanNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$ClassNode boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$ClassNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$JsonNode boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$JsonNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$NullNode boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$NullNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$NumberNode boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$NumberNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$PathNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$PatternNode boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$PatternNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$PredicateNode boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$PredicateNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$StringNode boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$StringNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$UndefinedNode boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$ValueListNode boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.filter.ValueNode$ValueListNode java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

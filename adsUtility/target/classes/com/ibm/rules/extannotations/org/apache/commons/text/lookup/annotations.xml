@@ -1,0 +1,146 @@
+<root>
+  <item name="org.apache.commons.text.lookup.AbstractStringLookup AbstractStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.BiFunctionStringLookup java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.ConstantStringLookup ConstantStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.DateStringLookup DateStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.DefaultStringLookup java.lang.String getKey()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.DefaultStringLookup org.apache.commons.text.lookup.StringLookup getStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.DnsStringLookup DnsStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.FileStringLookup FileStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.FunctionStringLookup java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.IllegalArgumentExceptions IllegalArgumentExceptions()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.InetAddressKeys InetAddressKeys()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.InterpolatorStringLookup java.lang.String toKey(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.InterpolatorStringLookup java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.InterpolatorStringLookup java.util.Map getStringLookupMap()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.JavaPlatformStringLookup JavaPlatformStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.LocalHostStringLookup LocalHostStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.PropertiesStringLookup PropertiesStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.ResourceBundleStringLookup ResourceBundleStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.ResourceBundleStringLookup ResourceBundleStringLookup(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.ResourceBundleStringLookup java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.ScriptStringLookup ScriptStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookup java.lang.String lookup(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory StringLookupFactory()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup base64DecoderStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup base64EncoderStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup base64StringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup constantStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup dateStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup dnsStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup environmentVariableStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup fileStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup interpolatorStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup javaPlatformStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup localHostStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup nullStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup propertiesStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup resourceBundleStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup resourceBundleStringLookup(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup scriptStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup systemPropertyStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup urlDecoderStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup urlEncoderStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup urlStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.StringLookupFactory org.apache.commons.text.lookup.StringLookup xmlStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.UrlDecoderStringLookup UrlDecoderStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.UrlEncoderStringLookup UrlEncoderStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.UrlStringLookup UrlStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.lookup.XmlStringLookup XmlStringLookup()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

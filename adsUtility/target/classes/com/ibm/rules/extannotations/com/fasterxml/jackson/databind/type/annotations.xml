@@ -1,0 +1,116 @@
+<root>
+  <item name="com.fasterxml.jackson.databind.type.ArrayType boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.ArrayType java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.ClassKey boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.ClassKey int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.ClassKey java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.ClassStack com.fasterxml.jackson.databind.type.ClassStack find(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.ClassStack java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.CollectionLikeType boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.CollectionLikeType java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.CollectionType java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.MapLikeType boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.MapLikeType java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.MapType java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.PlaceholderForType boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.PlaceholderForType java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.ReferenceType boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.ReferenceType java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.ResolvedRecursiveType boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.ResolvedRecursiveType com.fasterxml.jackson.databind.JavaType getSelfReferencedType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.ResolvedRecursiveType java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.SimpleType boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.SimpleType java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeBindings boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeBindings boolean hasUnbound(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeBindings boolean isEmpty()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeBindings com.fasterxml.jackson.databind.JavaType findBoundType(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeBindings int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeBindings java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeBindings$AsKey boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeBindings$AsKey int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeBindings$AsKey java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeBindings$TypeParamStash java.lang.reflect.TypeVariable[] paramsFor1(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeBindings$TypeParamStash java.lang.reflect.TypeVariable[] paramsFor2(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeFactory com.fasterxml.jackson.databind.JavaType _findWellKnownSimple(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeFactory com.fasterxml.jackson.databind.JavaType _fromWellKnownInterface(com.fasterxml.jackson.databind.type.ClassStack, java.lang.Class, com.fasterxml.jackson.databind.type.TypeBindings, com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.JavaType[])">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeFactory com.fasterxml.jackson.databind.JavaType _unknownType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeFactory com.fasterxml.jackson.databind.type.TypeFactory defaultInstance()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.type.TypeModifier com.fasterxml.jackson.databind.JavaType modifyType(com.fasterxml.jackson.databind.JavaType, java.lang.reflect.Type, com.fasterxml.jackson.databind.type.TypeBindings, com.fasterxml.jackson.databind.type.TypeFactory)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

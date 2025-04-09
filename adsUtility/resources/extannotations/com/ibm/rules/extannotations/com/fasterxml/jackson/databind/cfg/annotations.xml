@@ -1,0 +1,11 @@
+<root>
+  <item name="com.fasterxml.jackson.databind.cfg.ContextAttributes com.fasterxml.jackson.databind.cfg.ContextAttributes getEmpty()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.cfg.ContextAttributes$Impl com.fasterxml.jackson.databind.cfg.ContextAttributes getEmpty()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.cfg.MapperConfigBase com.fasterxml.jackson.databind.PropertyName getFullRootName()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

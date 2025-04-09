@@ -1,0 +1,5 @@
+<root>
+  <item name="com.jayway.jsonpath.internal.function.json.Append Append()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

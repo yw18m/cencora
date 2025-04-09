@@ -1,0 +1,11 @@
+<root>
+  <item name="com.jayway.jsonpath.internal.function.text.Concatenate Concatenate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.text.Length Length()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.internal.function.text.Length java.lang.Object invoke(java.lang.String, com.jayway.jsonpath.internal.PathRef, java.lang.Object, com.jayway.jsonpath.internal.EvaluationContext, java.util.List)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

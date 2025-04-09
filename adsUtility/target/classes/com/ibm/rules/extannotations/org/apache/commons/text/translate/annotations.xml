@@ -1,0 +1,89 @@
+<root>
+  <item name="org.apache.commons.text.translate.CharSequenceTranslator CharSequenceTranslator()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.CharSequenceTranslator int translate(java.lang.CharSequence, int, java.io.Writer)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.CharSequenceTranslator java.lang.String hex(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.CodePointTranslator CodePointTranslator()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.CodePointTranslator boolean translate(int, java.io.Writer)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.CsvTranslators CsvTranslators()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.CsvTranslators$CsvEscaper CsvTranslators$CsvEscaper()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.CsvTranslators$CsvUnescaper CsvTranslators$CsvUnescaper()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.EntityArrays EntityArrays()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.JavaUnicodeEscaper JavaUnicodeEscaper(int, int, boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.JavaUnicodeEscaper org.apache.commons.text.translate.JavaUnicodeEscaper above(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.JavaUnicodeEscaper org.apache.commons.text.translate.JavaUnicodeEscaper below(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.JavaUnicodeEscaper org.apache.commons.text.translate.JavaUnicodeEscaper between(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.JavaUnicodeEscaper org.apache.commons.text.translate.JavaUnicodeEscaper outsideOf(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.OctalUnescaper OctalUnescaper()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.OctalUnescaper boolean isOctalDigit(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.OctalUnescaper boolean isZeroToThree(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.SinglePassTranslator SinglePassTranslator()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.SinglePassTranslator java.lang.String getClassName()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.SinglePassTranslator void translateWhole(java.lang.CharSequence, java.io.Writer)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.UnicodeEscaper UnicodeEscaper()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.UnicodeEscaper UnicodeEscaper(int, int, boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.UnicodeEscaper org.apache.commons.text.translate.UnicodeEscaper above(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.UnicodeEscaper org.apache.commons.text.translate.UnicodeEscaper below(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.UnicodeEscaper org.apache.commons.text.translate.UnicodeEscaper between(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.UnicodeEscaper org.apache.commons.text.translate.UnicodeEscaper outsideOf(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.UnicodeUnescaper UnicodeUnescaper()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.UnicodeUnpairedSurrogateRemover UnicodeUnpairedSurrogateRemover()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.translate.UnicodeUnpairedSurrogateRemover boolean translate(int, java.io.Writer)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

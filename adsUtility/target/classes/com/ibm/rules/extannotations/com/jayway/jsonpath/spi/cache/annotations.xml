@@ -1,0 +1,5 @@
+<root>
+  <item name="com.jayway.jsonpath.spi.cache.LRUCache java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

@@ -1,0 +1,104 @@
+<root>
+  <item name="org.apache.commons.lang3.reflect.ConstructorUtils ConstructorUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.FieldUtils FieldUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.InheritanceUtils InheritanceUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.InheritanceUtils int distance(java.lang.Class, java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.MemberUtils MemberUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.MemberUtils boolean isPackageAccess(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.MemberUtils float getPrimitivePromotionCost(java.lang.Class, java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.MemberUtils$Executable boolean isVarArgs()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.MemberUtils$Executable java.lang.Class[] getParameterTypes()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.MethodUtils MethodUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeLiteral boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeLiteral int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeLiteral java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeLiteral java.lang.reflect.Type getType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils TypeUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils boolean isArrayType(java.lang.reflect.Type)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils java.lang.reflect.Type unrollVariableAssignments(java.lang.reflect.TypeVariable, java.util.Map)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils org.apache.commons.lang3.reflect.TypeUtils$WildcardTypeBuilder wildcardType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils org.apache.commons.lang3.reflect.Typed wrap(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils org.apache.commons.lang3.reflect.Typed wrap(java.lang.reflect.Type)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$GenericArrayTypeImpl boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$GenericArrayTypeImpl int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$GenericArrayTypeImpl java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$GenericArrayTypeImpl java.lang.reflect.Type getGenericComponentType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$ParameterizedTypeImpl boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$ParameterizedTypeImpl int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$ParameterizedTypeImpl java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$ParameterizedTypeImpl java.lang.reflect.Type getOwnerType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$ParameterizedTypeImpl java.lang.reflect.Type getRawType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$WildcardTypeBuilder TypeUtils$WildcardTypeBuilder()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$WildcardTypeImpl boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$WildcardTypeImpl int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.TypeUtils$WildcardTypeImpl java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.reflect.Typed java.lang.reflect.Type getType()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

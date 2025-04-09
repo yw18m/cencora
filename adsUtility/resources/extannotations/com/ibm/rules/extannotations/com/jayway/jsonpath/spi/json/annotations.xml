@@ -1,0 +1,167 @@
+<root>
+  <item name="com.jayway.jsonpath.spi.json.AbstractJsonProvider AbstractJsonProvider()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.AbstractJsonProvider boolean isArray(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.AbstractJsonProvider boolean isMap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.AbstractJsonProvider java.lang.Object getArrayIndex(java.lang.Object, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.AbstractJsonProvider java.lang.Object getArrayIndex(java.lang.Object, int, boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.AbstractJsonProvider java.lang.Object unwrap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.GsonJsonProvider boolean isArray(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.GsonJsonProvider boolean isMap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.GsonJsonProvider boolean isPrimitiveNumber(java.lang.Number)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.GsonJsonProvider com.google.gson.JsonArray toJsonArray(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.GsonJsonProvider com.google.gson.JsonElement toJsonElement(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.GsonJsonProvider com.google.gson.JsonObject toJsonObject(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.GsonJsonProvider java.lang.Number unwrapNumber(java.lang.Number)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JacksonJsonNodeJsonProvider boolean isArray(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JacksonJsonNodeJsonProvider boolean isMap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JacksonJsonNodeJsonProvider com.fasterxml.jackson.databind.ObjectMapper getObjectMapper()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JacksonJsonNodeJsonProvider com.fasterxml.jackson.databind.node.ArrayNode toJsonArray(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JacksonJsonNodeJsonProvider com.fasterxml.jackson.databind.node.ObjectNode toJsonObject(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JacksonJsonProvider com.fasterxml.jackson.databind.ObjectMapper getObjectMapper()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JettisonProvider JettisonProvider()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JettisonProvider boolean isArray(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JettisonProvider boolean isMap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JettisonProvider java.lang.Object jettisonUnwrap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JettisonProvider java.lang.Object jettisonWrap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JettisonProvider java.lang.Object unwrap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JettisonProvider$JettisonObjectIterator boolean hasNext()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonOrgJsonProvider JsonOrgJsonProvider()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonOrgJsonProvider boolean isArray(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonOrgJsonProvider boolean isMap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonOrgJsonProvider java.lang.Object createJsonElement(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonOrgJsonProvider java.lang.Object unwrap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonOrgJsonProvider java.lang.String toJson(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonOrgJsonProvider org.json.JSONArray toJsonArray(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonOrgJsonProvider org.json.JSONObject toJsonObject(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider boolean isArray(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider boolean isMap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider int length(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider java.lang.Iterable toIterable(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider java.lang.Object createArray()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider java.lang.Object createMap()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider java.lang.Object getArrayIndex(java.lang.Object, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider java.lang.Object getArrayIndex(java.lang.Object, int, boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider java.lang.Object getMapValue(java.lang.Object, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider java.lang.Object parse(java.io.InputStream, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider java.lang.Object parse(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider java.lang.Object unwrap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider java.lang.String toJson(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider java.util.Collection getPropertyKeys(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider void removeProperty(java.lang.Object, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider void setArrayIndex(java.lang.Object, int, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonProvider void setProperty(java.lang.Object, java.lang.Object, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.JsonSmartJsonProvider net.minidev.json.parser.JSONParser createParser()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.TapestryJsonProvider TapestryJsonProvider()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.TapestryJsonProvider boolean isArray(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.json.TapestryJsonProvider boolean isMap(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

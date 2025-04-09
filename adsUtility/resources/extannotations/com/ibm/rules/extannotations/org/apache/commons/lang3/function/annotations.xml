@@ -1,0 +1,302 @@
+<root>
+  <item name="org.apache.commons.lang3.function.Failable Failable()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.Failable java.lang.Runnable asRunnable(org.apache.commons.lang3.function.FailableRunnable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.Failable java.util.concurrent.Callable asCallable(org.apache.commons.lang3.function.FailableCallable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.Failable java.util.function.BiConsumer asBiConsumer(org.apache.commons.lang3.function.FailableBiConsumer)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.Failable java.util.function.BiFunction asBiFunction(org.apache.commons.lang3.function.FailableBiFunction)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.Failable java.util.function.BiPredicate asBiPredicate(org.apache.commons.lang3.function.FailableBiPredicate)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.Failable java.util.function.Consumer asConsumer(org.apache.commons.lang3.function.FailableConsumer)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.Failable java.util.function.Function asFunction(org.apache.commons.lang3.function.FailableFunction)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.Failable java.util.function.Predicate asPredicate(org.apache.commons.lang3.function.FailablePredicate)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.Failable java.util.function.Supplier asSupplier(org.apache.commons.lang3.function.FailableSupplier)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableBiConsumer org.apache.commons.lang3.function.FailableBiConsumer nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableBiConsumer void accept(java.lang.Object, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableBiFunction java.lang.Object apply(java.lang.Object, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableBiFunction org.apache.commons.lang3.function.FailableBiFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableBiPredicate boolean test(java.lang.Object, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableBiPredicate org.apache.commons.lang3.function.FailableBiPredicate falsePredicate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableBiPredicate org.apache.commons.lang3.function.FailableBiPredicate negate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableBiPredicate org.apache.commons.lang3.function.FailableBiPredicate truePredicate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableBooleanSupplier boolean getAsBoolean()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableCallable java.lang.Object call()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableConsumer org.apache.commons.lang3.function.FailableConsumer nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableConsumer void accept(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleBinaryOperator double applyAsDouble(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleConsumer org.apache.commons.lang3.function.FailableDoubleConsumer nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleConsumer void accept(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleFunction java.lang.Object apply(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleFunction org.apache.commons.lang3.function.FailableDoubleFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoublePredicate boolean test(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoublePredicate org.apache.commons.lang3.function.FailableDoublePredicate falsePredicate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoublePredicate org.apache.commons.lang3.function.FailableDoublePredicate negate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoublePredicate org.apache.commons.lang3.function.FailableDoublePredicate truePredicate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleSupplier double getAsDouble()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleToIntFunction int applyAsInt(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleToIntFunction org.apache.commons.lang3.function.FailableDoubleToIntFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleToLongFunction int applyAsLong(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleToLongFunction org.apache.commons.lang3.function.FailableDoubleToLongFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleUnaryOperator double applyAsDouble(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleUnaryOperator org.apache.commons.lang3.function.FailableDoubleUnaryOperator identity()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableDoubleUnaryOperator org.apache.commons.lang3.function.FailableDoubleUnaryOperator nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableFunction java.lang.Object apply(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableFunction org.apache.commons.lang3.function.FailableFunction identity()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableFunction org.apache.commons.lang3.function.FailableFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntBinaryOperator int applyAsInt(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntConsumer org.apache.commons.lang3.function.FailableIntConsumer nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntConsumer void accept(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntFunction java.lang.Object apply(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntFunction org.apache.commons.lang3.function.FailableIntFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntPredicate boolean test(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntPredicate org.apache.commons.lang3.function.FailableIntPredicate falsePredicate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntPredicate org.apache.commons.lang3.function.FailableIntPredicate negate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntPredicate org.apache.commons.lang3.function.FailableIntPredicate truePredicate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntSupplier int getAsInt()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntToDoubleFunction double applyAsDouble(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntToDoubleFunction org.apache.commons.lang3.function.FailableIntToDoubleFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntToLongFunction long applyAsLong(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntToLongFunction org.apache.commons.lang3.function.FailableIntToLongFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntUnaryOperator int applyAsInt(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntUnaryOperator org.apache.commons.lang3.function.FailableIntUnaryOperator identity()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableIntUnaryOperator org.apache.commons.lang3.function.FailableIntUnaryOperator nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongBinaryOperator long applyAsLong(long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongConsumer org.apache.commons.lang3.function.FailableLongConsumer nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongConsumer void accept(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongFunction java.lang.Object apply(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongFunction org.apache.commons.lang3.function.FailableLongFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongPredicate boolean test(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongPredicate org.apache.commons.lang3.function.FailableLongPredicate falsePredicate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongPredicate org.apache.commons.lang3.function.FailableLongPredicate negate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongPredicate org.apache.commons.lang3.function.FailableLongPredicate truePredicate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongSupplier long getAsLong()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongToDoubleFunction double applyAsDouble(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongToDoubleFunction org.apache.commons.lang3.function.FailableLongToDoubleFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongToIntFunction int applyAsInt(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongToIntFunction org.apache.commons.lang3.function.FailableLongToIntFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongUnaryOperator long applyAsLong(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongUnaryOperator org.apache.commons.lang3.function.FailableLongUnaryOperator identity()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableLongUnaryOperator org.apache.commons.lang3.function.FailableLongUnaryOperator nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableObjDoubleConsumer org.apache.commons.lang3.function.FailableObjDoubleConsumer nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableObjDoubleConsumer void accept(java.lang.Object, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableObjIntConsumer org.apache.commons.lang3.function.FailableObjIntConsumer nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableObjIntConsumer void accept(java.lang.Object, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableObjLongConsumer org.apache.commons.lang3.function.FailableObjLongConsumer nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableObjLongConsumer void accept(java.lang.Object, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailablePredicate boolean test(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailablePredicate org.apache.commons.lang3.function.FailablePredicate falsePredicate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailablePredicate org.apache.commons.lang3.function.FailablePredicate negate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailablePredicate org.apache.commons.lang3.function.FailablePredicate truePredicate()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableRunnable void run()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableSupplier java.lang.Object get()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToDoubleBiFunction double applyAsDouble(java.lang.Object, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToDoubleBiFunction org.apache.commons.lang3.function.FailableToDoubleBiFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToDoubleFunction double applyAsDouble(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToDoubleFunction org.apache.commons.lang3.function.FailableToDoubleFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToIntBiFunction int applyAsInt(java.lang.Object, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToIntBiFunction org.apache.commons.lang3.function.FailableToIntBiFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToIntFunction int applyAsInt(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToIntFunction org.apache.commons.lang3.function.FailableToIntFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToLongBiFunction long applyAsLong(java.lang.Object, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToLongBiFunction org.apache.commons.lang3.function.FailableToLongBiFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToLongFunction long applyAsLong(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.function.FailableToLongFunction org.apache.commons.lang3.function.FailableToLongFunction nop()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

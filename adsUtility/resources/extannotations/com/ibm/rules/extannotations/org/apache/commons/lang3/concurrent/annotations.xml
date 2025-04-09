@@ -1,0 +1,212 @@
+<root>
+  <item name="org.apache.commons.lang3.concurrent.AbstractCircuitBreaker boolean checkState()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.AbstractCircuitBreaker boolean incrementAndCheckState(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.AbstractCircuitBreaker boolean isOpen(org.apache.commons.lang3.concurrent.AbstractCircuitBreaker$State)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.AbstractCircuitBreaker$State org.apache.commons.lang3.concurrent.AbstractCircuitBreaker$State oppositeState()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.AbstractCircuitBreaker$State$1 org.apache.commons.lang3.concurrent.AbstractCircuitBreaker$State oppositeState()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.AbstractCircuitBreaker$State$2 org.apache.commons.lang3.concurrent.AbstractCircuitBreaker$State oppositeState()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.AtomicInitializer java.lang.Object initialize()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.AtomicSafeInitializer java.lang.Object initialize()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.BackgroundInitializer boolean isStarted()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.BackgroundInitializer int getTaskCount()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.BackgroundInitializer java.lang.Object initialize()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.BackgroundInitializer java.util.concurrent.ExecutorService getActiveExecutor()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.BackgroundInitializer java.util.concurrent.ExecutorService getExternalExecutor()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.BasicThreadFactory java.lang.Boolean getDaemonFlag()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.BasicThreadFactory java.lang.Integer getPriority()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.BasicThreadFactory java.lang.String getNamingPattern()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.BasicThreadFactory java.lang.Thread$UncaughtExceptionHandler getUncaughtExceptionHandler()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.BasicThreadFactory java.util.concurrent.ThreadFactory getWrappedFactory()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.BasicThreadFactory$Builder BasicThreadFactory$Builder()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.CircuitBreaker boolean checkState()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.CircuitBreaker boolean incrementAndCheckState(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.CircuitBreaker boolean isClosed()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.CircuitBreaker boolean isOpen()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.CircuitBreaker void close()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.CircuitBreaker void open()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.Computable java.lang.Object compute(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConcurrentInitializer java.lang.Object get()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConcurrentUtils ConcurrentUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConcurrentUtils java.lang.Object initialize(org.apache.commons.lang3.concurrent.ConcurrentInitializer)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConcurrentUtils$ConstantFuture boolean cancel(boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConcurrentUtils$ConstantFuture boolean isCancelled()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConcurrentUtils$ConstantFuture boolean isDone()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConcurrentUtils$ConstantFuture java.lang.Object get()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConcurrentUtils$ConstantFuture java.lang.Object get(long, java.util.concurrent.TimeUnit)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConstantInitializer boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConstantInitializer int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConstantInitializer java.lang.Object get()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConstantInitializer java.lang.Object getObject()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ConstantInitializer java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker int getClosingThreshold()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker int getOpeningThreshold()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker long getClosingInterval()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker long getOpeningInterval()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData nextCheckIntervalData(int, org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData, org.apache.commons.lang3.concurrent.AbstractCircuitBreaker$State, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$StateStrategy stateStrategy(org.apache.commons.lang3.concurrent.AbstractCircuitBreaker$State)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData EventCountCircuitBreaker$CheckIntervalData(int, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData int getEventCount()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData long getCheckIntervalStart()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData increment(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$StateStrategy EventCountCircuitBreaker$StateStrategy()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$StateStrategy boolean isCheckIntervalFinished(org.apache.commons.lang3.concurrent.EventCountCircuitBreaker, org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$StateStrategy boolean isStateTransition(org.apache.commons.lang3.concurrent.EventCountCircuitBreaker, org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData, org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$StateStrategy long fetchCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreaker)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$StateStrategyClosed EventCountCircuitBreaker$StateStrategyClosed()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$StateStrategyClosed boolean isStateTransition(org.apache.commons.lang3.concurrent.EventCountCircuitBreaker, org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData, org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$StateStrategyClosed long fetchCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreaker)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$StateStrategyOpen EventCountCircuitBreaker$StateStrategyOpen()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$StateStrategyOpen boolean isStateTransition(org.apache.commons.lang3.concurrent.EventCountCircuitBreaker, org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData, org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$StateStrategyOpen long fetchCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreaker)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.LazyInitializer java.lang.Object initialize()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.ThresholdCircuitBreaker long getThreshold()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.TimedSemaphore boolean isShutdown()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.TimedSemaphore double getAverageCallsPerPeriod()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.TimedSemaphore int getAcquireCount()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.TimedSemaphore int getAvailablePermits()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.TimedSemaphore int getLastAcquiresPerPeriod()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.TimedSemaphore int getLimit()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.TimedSemaphore java.util.concurrent.ScheduledExecutorService getExecutorService()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.TimedSemaphore java.util.concurrent.TimeUnit getUnit()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.concurrent.TimedSemaphore long getPeriod()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

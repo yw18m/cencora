@@ -1,0 +1,11 @@
+<root>
+  <item name="com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.deser.impl.CreatorCandidate java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.deser.impl.ReadableObjectId java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

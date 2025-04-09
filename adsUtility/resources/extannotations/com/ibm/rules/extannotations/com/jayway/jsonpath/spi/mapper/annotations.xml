@@ -1,0 +1,29 @@
+<root>
+  <item name="com.jayway.jsonpath.spi.mapper.GsonMappingProvider$1 com.google.gson.Gson call()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.mapper.JsonOrgMappingProvider JsonOrgMappingProvider()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.mapper.JsonSmartMappingProvider$1 net.minidev.json.writer.JsonReader call()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.mapper.JsonSmartMappingProvider$BigDecimalReader java.math.BigDecimal convert(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.mapper.JsonSmartMappingProvider$BigIntegerReader java.math.BigInteger convert(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.mapper.JsonSmartMappingProvider$StringReader java.lang.String convert(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.mapper.MappingProvider java.lang.Object map(java.lang.Object, com.jayway.jsonpath.TypeRef, com.jayway.jsonpath.Configuration)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.mapper.MappingProvider java.lang.Object map(java.lang.Object, java.lang.Class, com.jayway.jsonpath.Configuration)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.jayway.jsonpath.spi.mapper.TapestryMappingProvider TapestryMappingProvider()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

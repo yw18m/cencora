@@ -1,0 +1,5 @@
+<root>
+  <item name="com.cencora.RuleEngineRequest RuleEngineRequest()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

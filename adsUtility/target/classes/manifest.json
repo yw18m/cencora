@@ -1,0 +1,23 @@
+{
+  "packageId" : "adsUtility",
+  "description" : null,
+  "version" : "1.0-SNAPSHOT",
+  "productInfo" : {
+    "projectKind" : "DecisionModel",
+    "projectVersion" : "2.0.0"
+  },
+  "model" : "bom-entries/model.bom",
+  "locales" : [ "en-US" ],
+  "dependencies" : {
+    "com.cencora:droolLibrary" : "1.0-SNAPSHOT",
+    "com.ibm.decision:annotations" : "2.0.12",
+    "com.jayway.jsonpath:json-path" : "2.4.0",
+    "net.minidev:json-smart" : "2.3",
+    "net.minidev:accessors-smart" : "1.2",
+    "org.ow2.asm:asm" : "5.0.4",
+    "org.slf4j:slf4j-api" : "1.7.25",
+    "org.apache.commons:commons-lang3" : "3.11",
+    "org.apache.commons:commons-text" : "1.9",
+    "org.json:json" : "20211205"
+  }
+}

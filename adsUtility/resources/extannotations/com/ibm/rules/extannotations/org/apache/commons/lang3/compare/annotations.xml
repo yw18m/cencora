@@ -1,0 +1,56 @@
+<root>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils ComparableUtils()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils java.util.function.Predicate between(java.lang.Comparable, java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils java.util.function.Predicate betweenExclusive(java.lang.Comparable, java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils java.util.function.Predicate ge(java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils java.util.function.Predicate gt(java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils java.util.function.Predicate le(java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils java.util.function.Predicate lt(java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils$ComparableCheckBuilder boolean between(java.lang.Comparable, java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils$ComparableCheckBuilder boolean betweenExclusive(java.lang.Comparable, java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils$ComparableCheckBuilder boolean betweenOrdered(java.lang.Comparable, java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils$ComparableCheckBuilder boolean betweenOrderedExclusive(java.lang.Comparable, java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils$ComparableCheckBuilder boolean equalTo(java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils$ComparableCheckBuilder boolean greaterThan(java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils$ComparableCheckBuilder boolean greaterThanOrEqualTo(java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils$ComparableCheckBuilder boolean lessThan(java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ComparableUtils$ComparableCheckBuilder boolean lessThanOrEqualTo(java.lang.Comparable)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ObjectToStringComparator ObjectToStringComparator()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.lang3.compare.ObjectToStringComparator int compare(java.lang.Object, java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

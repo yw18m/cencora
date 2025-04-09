@@ -1,0 +1,5 @@
+<root>
+  <item name="com.fasterxml.jackson.databind.jsonFormatVisitors.JsonValueFormat java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

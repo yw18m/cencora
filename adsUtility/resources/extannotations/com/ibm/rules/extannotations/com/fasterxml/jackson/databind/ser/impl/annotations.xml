@@ -1,0 +1,8 @@
+<root>
+  <item name="com.fasterxml.jackson.databind.ser.impl.BeanAsArraySerializer java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanSerializer java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

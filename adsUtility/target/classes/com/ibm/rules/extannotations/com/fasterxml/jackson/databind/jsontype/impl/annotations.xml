@@ -1,0 +1,11 @@
+<root>
+  <item name="com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver StdSubtypeResolver()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

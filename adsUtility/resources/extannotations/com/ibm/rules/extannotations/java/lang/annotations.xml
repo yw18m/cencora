@@ -1,0 +1,1752 @@
+<root>
+  <item name="java.lang.AbstractStringBuilder int length()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Boolean">
+    <annotation name="ilog.rules.bom.annotations.ValueType"/>
+  </item>
+  <item name="java.lang.Boolean Boolean(boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean Boolean(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean boolean booleanValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean boolean getBoolean(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Boolean boolean logicalAnd(boolean, boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean boolean logicalOr(boolean, boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean boolean logicalXor(boolean, boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean boolean parseBoolean(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean int compare(boolean, boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean int compareTo(java.lang.Boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean int compareTo(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean int hashCode(boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Boolean java.lang.Boolean valueOf(boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Boolean java.lang.Boolean valueOf(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Boolean java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Boolean java.lang.String toString(boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Byte">
+    <annotation name="ilog.rules.bom.annotations.ValueType"/>
+  </item>
+  <item name="java.lang.Byte int intValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="-128"/>
+      <val name="max" val="127"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Byte java.lang.Byte valueOf(byte)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Byte long longValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedLongDomain">
+      <val name="min" val="java.lang.Byte.MIN_VALUE"/>
+      <val name="max" val="java.lang.Byte.MAX_VALUE"/>
+    </annotation>
+  </item>
+  <item name="java.lang.CharSequence java.lang.CharSequence subSequence(int, int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.CharSequence java.lang.CharSequence subSequence(int, int) 1">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.CharSequence java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.CharSequence java.util.stream.IntStream chars()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.CharSequence java.util.stream.IntStream codePoints()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Character">
+    <annotation name="ilog.rules.bom.annotations.ValueType"/>
+  </item>
+  <item name="java.lang.Character java.lang.Character valueOf(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class boolean isAnnotation()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class boolean isAnonymousClass()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class boolean isArray()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class boolean isAssignableFrom(java.lang.Class) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class boolean isInstance(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class boolean isInterface()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class boolean isLocalClass()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class boolean isMemberClass()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class boolean isPrimitive()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class boolean isSynthetic()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class int getModifiers()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class java.io.InputStream getResourceAsStream(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.Class asSubclass(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class java.lang.Class asSubclass(java.lang.Class) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.Class forName(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.Class forName(java.lang.String, boolean, java.lang.ClassLoader)">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.Class forName(java.lang.String, boolean, java.lang.ClassLoader) 2">
+    <annotation name="com.ibm.rules.engine.annotations.Nullable"/>
+  </item>
+  <item name="java.lang.Class java.lang.Class getSuperclass()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class java.lang.Class[] getClasses()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.Class[] getDeclaredClasses()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.Class[] getInterfaces()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.Object cast(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class java.lang.Object newInstance()">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.Package getPackage()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class java.lang.String getCanonicalName()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class java.lang.String getName()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.String getPackageName()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.String getSimpleName()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.String getTypeName()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.String toGenericString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class java.lang.annotation.Annotation[] getAnnotations()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.annotation.Annotation[] getDeclaredAnnotations()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.AnnotatedType getAnnotatedSuperclass()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Constructor getConstructor(java.lang.Class[])">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Constructor getDeclaredConstructor(java.lang.Class[])">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Constructor[] getConstructors()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Constructor[] getDeclaredConstructors()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Field getDeclaredField(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Field getDeclaredField(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Field getField(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Field getField(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Field[] getDeclaredFields()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Field[] getFields()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Method getDeclaredMethod(java.lang.String, java.lang.Class[])">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Method getDeclaredMethod(java.lang.String, java.lang.Class[]) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[]) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Method[] getDeclaredMethods()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Method[] getMethods()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Type getGenericSuperclass()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.TypeVariable[] getTypeParameters()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Class java.lang.reflect.Type[] getGenericInterfaces()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.ClassLoader java.io.InputStream getResourceAsStream(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.Nullable"/>
+  </item>
+  <item name="java.lang.ClassLoader java.io.InputStream getSystemResourceAsStream(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.Nullable"/>
+  </item>
+  <item name="java.lang.ClassLoader java.net.URL getResource(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.Nullable"/>
+  </item>
+  <item name="java.lang.Comparable int compareTo(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Comparable int compareTo(java.lang.Object) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Double">
+    <annotation name="ilog.rules.bom.annotations.ValueType"/>
+  </item>
+  <item name="java.lang.Double Double(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double Double(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double boolean isFinite()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double boolean isFinite(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double boolean isInfinite()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double boolean isInfinite(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double boolean isNaN()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double boolean isNaN(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double byte byteValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double double doubleValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double double longBitsToDouble(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double double max(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double double min(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double double parseDouble(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double double sum(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double float floatValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double int compare(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double int compareTo(java.lang.Double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double int compareTo(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double int hashCode(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double int intValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double java.lang.Double valueOf(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Double java.lang.Double valueOf(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Double java.lang.String toHexString(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Double java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Double java.lang.String toString(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Double long doubleToLongBits(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double long doubleToRawLongBits(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double long longValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Double short shortValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Enum int ordinal()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Enum java.lang.Class getDeclaringClass()">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Enum java.lang.Enum valueOf(java.lang.Class, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Enum java.lang.Enum valueOf(java.lang.Class, java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Enum java.lang.Enum valueOf(java.lang.Class, java.lang.String) 1">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Enum java.lang.String name()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Exception java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float">
+    <annotation name="ilog.rules.bom.annotations.ValueType"/>
+  </item>
+  <item name="java.lang.Float Float(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float Float(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float Float(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float boolean isFinite()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float boolean isFinite(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float boolean isInfinite()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float boolean isInfinite(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float boolean isNaN()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float boolean isNaN(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float byte byteValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float double doubleValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float float floatValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float float intBitsToFloat(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float float max(float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float float min(float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float float parseFloat(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float float sum(float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float int compare(float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float int compareTo(java.lang.Float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float int compareTo(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float int floatToIntBits(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float int floatToRawIntBits(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float int hashCode(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float int intValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float java.lang.Float valueOf(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Float java.lang.Float valueOf(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Float java.lang.String toHexString(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Float java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Float java.lang.String toString(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Float long longValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Float short shortValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer">
+    <annotation name="ilog.rules.bom.annotations.ValueType"/>
+  </item>
+  <item name="java.lang.Integer Integer(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer Integer(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer byte byteValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer double doubleValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer float floatValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int bitCount(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+      <val name="max" val="32"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Integer int compare(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int compareTo(java.lang.Integer)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int compareTo(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int compareUnsigned(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int divideUnsigned(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int formatUnsignedInt(int, int, char[], int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int hashCode(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int highestOneBit(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int intValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int lowestOneBit(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int max(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int min(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int numberOfLeadingZeros(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+      <val name="max" val="32"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Integer int numberOfTrailingZeros(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+      <val name="max" val="32"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Integer int parseInt(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int parseInt(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int parseUnsignedInt(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int parseUnsignedInt(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int remainderUnsigned(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int reverse(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int reverseBytes(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int rotateLeft(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int rotateRight(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int signum(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer int sum(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer java.lang.Integer decode(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.Integer getInteger(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Integer java.lang.Integer getInteger(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.Integer getInteger(java.lang.String, java.lang.Integer)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Integer java.lang.Integer valueOf(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.Integer valueOf(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.Integer valueOf(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.String toBinaryString(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.String toHexString(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.String toOctalString(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.String toString(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.String toString(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.String toUnsignedString(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer java.lang.String toUnsignedString(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Integer long longValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedLongDomain">
+      <val name="min" val="java.lang.Integer.MIN_VALUE"/>
+      <val name="max" val="java.lang.Integer.MAX_VALUE"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Integer long toUnsignedLong(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Integer short shortValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Iterable java.util.Iterator iterator()">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long">
+    <annotation name="ilog.rules.bom.annotations.ValueType"/>
+  </item>
+  <item name="java.lang.Long Long(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long Long(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long byte byteValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long double doubleValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long float floatValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long int bitCount(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+      <val name="max" val="64"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Long int compare(long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long int compareTo(java.lang.Long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long int compareTo(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long int compareUnsigned(long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long int hashCode(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long int intValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long int numberOfLeadingZeros(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+      <val name="max" val="64"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Long int numberOfTrailingZeros(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+      <val name="max" val="64"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Long int signum(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long java.lang.Long decode(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.Long getLong(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Long java.lang.Long getLong(java.lang.String, java.lang.Long)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Long java.lang.Long getLong(java.lang.String, long)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.Long valueOf(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.Long valueOf(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.Long valueOf(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.String toBinaryString(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.String toHexString(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.String toOctalString(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.String toString(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.String toString(long, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.String toUnsignedString(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long java.lang.String toUnsignedString(long, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Long long divideUnsigned(long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long highestOneBit(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long longValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long lowestOneBit(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long max(long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long min(long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long parseLong(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long parseLong(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long parseUnsignedLong(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long parseUnsignedLong(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long remainderUnsigned(long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long reverse(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long reverseBytes(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long rotateLeft(long, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long rotateRight(long, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long long sum(long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Long short shortValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double IEEEremainder(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double abs(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double acos(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double asin(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double atan(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double atan2(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double cbrt(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double ceil(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double cos(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double cosh(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double exp(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double expm1(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double floor(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double hypot(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double log(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double log10(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double log1p(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double max(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double min(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double pow(double, double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double random()">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Math double rint(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double signum(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double sin(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double sinh(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double sqrt(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double tan(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double tanh(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double toRadians(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math double ulp(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math float abs(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math float max(float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math float min(float, float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math float signum(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math float ulp(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math int abs(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math int max(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math int min(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math int round(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math long abs(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math long max(long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math long min(long, long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Math long round(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Number byte byteValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Number double doubleValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Number float floatValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Number int intValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Number long longValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Number short shortValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Object boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Object int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Object java.lang.Class getClass()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Object java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package boolean isAnnotationPresent(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package boolean isAnnotationPresent(java.lang.Class) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package boolean isCompatibleWith(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package boolean isCompatibleWith(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package boolean isSealed()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package boolean isSealed(java.net.URL)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package boolean isSealed(java.net.URL) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package java.lang.Package[] getPackages()">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package java.lang.String getImplementationTitle()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package java.lang.String getImplementationVendor()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package java.lang.String getImplementationVersion()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package java.lang.String getName()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package java.lang.String getSpecificationTitle()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package java.lang.String getSpecificationVendor()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package java.lang.String getSpecificationVersion()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package java.lang.annotation.Annotation getAnnotation(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package java.lang.annotation.Annotation getAnnotation(java.lang.Class) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package java.lang.annotation.Annotation getDeclaredAnnotation(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Package java.lang.annotation.Annotation getDeclaredAnnotation(java.lang.Class) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package java.lang.annotation.Annotation[] getAnnotations()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package java.lang.annotation.Annotation[] getAnnotationsByType(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package java.lang.annotation.Annotation[] getAnnotationsByType(java.lang.Class) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package java.lang.annotation.Annotation[] getDeclaredAnnotations()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package java.lang.annotation.Annotation[] getDeclaredAnnotationsByType(java.lang.Class)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Package java.lang.annotation.Annotation[] getDeclaredAnnotationsByType(java.lang.Class) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Readable int read(java.nio.CharBuffer) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Runtime void exit(int)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction"/>
+  </item>
+  <item name="java.lang.Runtime void halt(int)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction"/>
+  </item>
+  <item name="java.lang.Short">
+    <annotation name="ilog.rules.bom.annotations.ValueType"/>
+  </item>
+  <item name="java.lang.Short int intValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="java.lang.Short.MIN_VALUE"/>
+      <val name="max" val="java.lang.Short.MAX_VALUE"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Short java.lang.Short decode(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Short java.lang.Short valueOf(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Short java.lang.Short valueOf(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Short java.lang.Short valueOf(short)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Short long longValue()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedLongDomain">
+      <val name="min" val="java.lang.Short.MIN_VALUE"/>
+      <val name="max" val="java.lang.Short.MAX_VALUE"/>
+    </annotation>
+  </item>
+  <item name="java.lang.StackTraceElement java.lang.String getClassName()">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.StackTraceElement java.lang.String getFileName()">
+    <annotation name="com.ibm.rules.engine.annotations.Nullable"/>
+  </item>
+  <item name="java.lang.StackTraceElement java.lang.String getMethodName()">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String">
+    <annotation name="ilog.rules.bom.annotations.ValueType"/>
+  </item>
+  <item name="java.lang.String String(byte[])">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String String(byte[]) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(byte[], int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(byte[], int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String String(byte[], int, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(byte[], int, int, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(byte[], int, int, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String String(byte[], int, int, java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(byte[], int, int, java.lang.String) 3">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(byte[], int, int, java.nio.charset.Charset)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String String(byte[], int, int, java.nio.charset.Charset) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(byte[], int, int, java.nio.charset.Charset) 3">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(byte[], java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String String(byte[], java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(byte[], java.lang.String) 1">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(byte[], java.nio.charset.Charset)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String String(byte[], java.nio.charset.Charset) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(byte[], java.nio.charset.Charset) 1">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(char[]) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(char[], int, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(int[], int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String String(int[], int, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String String(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(java.lang.StringBuffer)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String String(java.lang.StringBuffer) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String String(java.lang.StringBuilder)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String String(java.lang.StringBuilder) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String boolean contains(java.lang.CharSequence)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String boolean contains(java.lang.CharSequence) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String boolean contentEquals(java.lang.CharSequence) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String boolean contentEquals(java.lang.StringBuffer)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String boolean contentEquals(java.lang.StringBuffer) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String boolean endsWith(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String boolean isEmpty()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String boolean matches(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String boolean matches(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String boolean regionMatches(boolean, int, java.lang.String, int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String boolean regionMatches(boolean, int, java.lang.String, int, int) 2">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String boolean regionMatches(int, java.lang.String, int, int) 1">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String boolean startsWith(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String boolean startsWith(java.lang.String, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String byte[] getBytes()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String byte[] getBytes(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String byte[] getBytes(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String byte[] getBytes(java.nio.charset.Charset)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String byte[] getBytes(java.nio.charset.Charset) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String char charAt(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String char charAt(int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.String char[] toCharArray()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String int codePointAt(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String int codePointAt(int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.String int compareTo(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String int compareTo(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String int compareToIgnoreCase(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String int compareToIgnoreCase(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String int indexOf(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String int indexOf(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String int indexOf(java.lang.String, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String int lastIndexOf(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String int lastIndexOf(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String int lastIndexOf(java.lang.String, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String int length()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.String java.lang.CharSequence subSequence(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.CharSequence subSequence(int, int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.String java.lang.CharSequence subSequence(int, int) 1">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.String java.lang.String concat(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String concat(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String copyValueOf(char[])">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String copyValueOf(char[]) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String copyValueOf(char[], int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String copyValueOf(char[], int, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String format(java.lang.String, java.lang.Object[]) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String format(java.util.Locale, java.lang.String, java.lang.Object[])">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String format(java.util.Locale, java.lang.String, java.lang.Object[]) 1">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String intern()">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String join(java.lang.CharSequence, java.lang.CharSequence[])">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String join(java.lang.CharSequence, java.lang.Iterable)">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String replace(char, char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String replace(java.lang.CharSequence, java.lang.CharSequence)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String replace(java.lang.CharSequence, java.lang.CharSequence) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String replace(java.lang.CharSequence, java.lang.CharSequence) 1">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String replaceAll(java.lang.String, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String replaceAll(java.lang.String, java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String replaceAll(java.lang.String, java.lang.String) 1">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String replaceFirst(java.lang.String, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String replaceFirst(java.lang.String, java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String replaceFirst(java.lang.String, java.lang.String) 1">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String substring(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String substring(int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.String java.lang.String substring(int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String substring(int, int) 0">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.String java.lang.String substring(int, int) 1">
+    <annotation name="ilog.rules.bom.annotations.BoundedIntDomain">
+      <val name="min" val="0"/>
+    </annotation>
+  </item>
+  <item name="java.lang.String java.lang.String toLowerCase()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String toLowerCase(java.util.Locale)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String toLowerCase(java.util.Locale) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String java.lang.String toUpperCase()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String toUpperCase(java.util.Locale)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String toUpperCase(java.util.Locale) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String trim()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String valueOf(boolean)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String valueOf(char)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String valueOf(char[])">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String valueOf(char[]) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String valueOf(char[], int, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String valueOf(char[], int, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String valueOf(double)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String valueOf(float)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String valueOf(int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String valueOf(long)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String[] split(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String[] split(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String[] split(java.lang.String, int)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.lang.String[] split(java.lang.String, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String java.util.stream.IntStream chars()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String java.util.stream.IntStream codePoints()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.String void getBytes(int, int, byte[], int) 2">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.String void getChars(int, int, char[], int) 2">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.StringBuffer java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.StringBuilder java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.System java.lang.String getProperty(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.System java.lang.String getProperty(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.System java.lang.String getProperty(java.lang.String, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.System java.lang.String getProperty(java.lang.String, java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.System java.lang.String getenv(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.System java.lang.String setProperty(java.lang.String, java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.System java.lang.String setProperty(java.lang.String, java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.System java.lang.String setProperty(java.lang.String, java.lang.String) 1">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.System java.util.Properties getProperties()">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.System long currentTimeMillis()">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.System long nanoTime()">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.System void arraycopy(java.lang.Object, int, java.lang.Object, int, int) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.System void arraycopy(java.lang.Object, int, java.lang.Object, int, int) 2">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.System void exit(int)">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction"/>
+  </item>
+  <item name="java.lang.Thread Thread(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Thread Thread(java.lang.ThreadGroup, java.lang.Runnable) 0">
+    <annotation name="com.ibm.rules.engine.annotations.Nullable"/>
+  </item>
+  <item name="java.lang.Thread Thread(java.lang.ThreadGroup, java.lang.Runnable, java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.Nullable"/>
+  </item>
+  <item name="java.lang.Thread Thread(java.lang.ThreadGroup, java.lang.Runnable, java.lang.String) 2">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Thread Thread(java.lang.ThreadGroup, java.lang.Runnable, java.lang.String, long) 0">
+    <annotation name="com.ibm.rules.engine.annotations.Nullable"/>
+  </item>
+  <item name="java.lang.Thread Thread(java.lang.ThreadGroup, java.lang.Runnable, java.lang.String, long) 2">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Thread Thread(java.lang.ThreadGroup, java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.Nullable"/>
+  </item>
+  <item name="java.lang.Thread Thread(java.lang.ThreadGroup, java.lang.String) 1">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Thread boolean isAlive()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Thread boolean isInterrupted()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Thread int enumerate(java.lang.Thread[])">
+    <annotation name="com.ibm.rules.engine.annotations.ImpureFunction">
+      <val name="kind" val="com.ibm.rules.engine.annotations.ImpurityKind.EXTERNAL"/>
+    </annotation>
+  </item>
+  <item name="java.lang.Thread java.lang.StackTraceElement[] getStackTrace()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Thread java.lang.String getName()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Thread java.lang.Thread currentThread()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Thread java.lang.Thread.State getState()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Thread java.util.Map getAllStackTraces()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+  <item name="java.lang.Thread long getId()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="java.lang.Thread void setName(java.lang.String) 0">
+    <annotation name="com.ibm.rules.engine.annotations.NotNull"/>
+  </item>
+</root>

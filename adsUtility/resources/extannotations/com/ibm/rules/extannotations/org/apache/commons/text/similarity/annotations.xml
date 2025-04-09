@@ -1,0 +1,119 @@
+<root>
+  <item name="org.apache.commons.text.similarity.CosineSimilarity CosineSimilarity()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.Counter Counter()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.EditDistance java.lang.Object apply(java.lang.CharSequence, java.lang.CharSequence)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.EditDistanceFrom java.lang.CharSequence getLeft()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.EditDistanceFrom java.lang.Object apply(java.lang.CharSequence)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.EditDistanceFrom org.apache.commons.text.similarity.EditDistance getEditDistance()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.FuzzyScore java.util.Locale getLocale()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.HammingDistance HammingDistance()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.IntersectionResult boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.IntersectionResult int getIntersection()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.IntersectionResult int getSizeA()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.IntersectionResult int getSizeB()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.IntersectionResult int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.IntersectionResult java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.IntersectionSimilarity$BagCount IntersectionSimilarity$BagCount()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.IntersectionSimilarity$TinyBag int getCount(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.IntersectionSimilarity$TinyBag java.util.Set entrySet()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.JaccardSimilarity JaccardSimilarity()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.JaroWinklerDistance JaroWinklerDistance()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.JaroWinklerSimilarity JaroWinklerSimilarity()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinDetailedDistance java.lang.Integer getThreshold()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinDetailedDistance org.apache.commons.text.similarity.LevenshteinDetailedDistance getDefaultInstance()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinDistance java.lang.Integer getThreshold()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinDistance org.apache.commons.text.similarity.LevenshteinDistance getDefaultInstance()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinResults LevenshteinResults(java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.Integer)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinResults boolean equals(java.lang.Object)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinResults int hashCode()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinResults java.lang.Integer getDeleteCount()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinResults java.lang.Integer getDistance()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinResults java.lang.Integer getInsertCount()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinResults java.lang.Integer getSubstituteCount()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LevenshteinResults java.lang.String toString()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.LongestCommonSubsequence LongestCommonSubsequence()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.RegexTokenizer RegexTokenizer()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.SimilarityScore java.lang.Object apply(java.lang.CharSequence, java.lang.CharSequence)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.SimilarityScoreFrom java.lang.CharSequence getLeft()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.SimilarityScoreFrom java.lang.Object apply(java.lang.CharSequence)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.SimilarityScoreFrom org.apache.commons.text.similarity.SimilarityScore getSimilarityScore()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="org.apache.commons.text.similarity.Tokenizer java.lang.Object[] tokenize(java.lang.CharSequence)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>

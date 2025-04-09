@@ -1,0 +1,44 @@
+<root>
+  <item name="net.minidev.json.reader.ArrayWriter ArrayWriter()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.BeansWriter BeansWriter()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.BeansWriterASM BeansWriterASM()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.BeansWriterASMRemap java.lang.String rename(java.lang.String)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.JsonWriter$1 JsonWriter$1()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.JsonWriter$2 JsonWriter$2()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.JsonWriter$2 void writeJSONString(net.minidev.json.JSONStreamAwareEx, java.lang.Appendable, net.minidev.json.JSONStyle)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.JsonWriter$3 JsonWriter$3()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.JsonWriter$4 JsonWriter$4()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.JsonWriter$5 JsonWriter$5()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.JsonWriter$6 JsonWriter$6()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.JsonWriter$7 JsonWriter$7()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.JsonWriter$8 JsonWriter$8()">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+  <item name="net.minidev.json.reader.JsonWriterI void writeJSONString(java.lang.Object, java.lang.Appendable, net.minidev.json.JSONStyle)">
+    <annotation name="com.ibm.rules.engine.annotations.PureFunction"/>
+  </item>
+</root>
